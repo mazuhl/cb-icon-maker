@@ -8,7 +8,7 @@
 # Step 3: Check your icons and upload them to /assets/components/contentblocks/img/icons/
 # ------------------------------------------------------------------
 
-if [ $1 == "--multi" ]
+if [[ $1 == "--multi" ]]
   then
     for f in images/*.png ;
         do 
