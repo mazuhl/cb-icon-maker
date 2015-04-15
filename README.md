@@ -1,7 +1,7 @@
 # cp-icon-maker
 Icon maker for MODx Content Blocks Extra
 
-Short shell script to icons similar to those used by [ModMore's Content Blocks plugin](https://www.modmore.com/extras/contentblocks/). Great to quickly generate icons for Fields, Layouts and Templates from thousands of free icon images.
+Short shell script to make icons similar to those used by [ModMore's Content Blocks plugin](https://www.modmore.com/extras/contentblocks/). Great to quickly generate new icons for your Fields, Layouts and Templates from thousands of free icon images.
 
 ## Usage
 
