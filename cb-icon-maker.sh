@@ -34,19 +34,3 @@ else
       convert "$f" -resize 80x80 "$f";
   done
 fi
-
-
-# for f in images/*.png ;
-#   do 
-#     convert -size 160x160 xc:none images/temp.png;
-#     convert "$f" -fill white -colorize 40% "$f";    
-#     composite -gravity NorthEast -geometry +22+20 \( "$f" -resize 50x42 \) images/temp.png images/temp.png;
-#     composite -gravity NorthWest -geometry +22+20 \( "$f" -resize 50x42 \) images/temp.png images/temp.png;
-#     composite -gravity SouthEast -geometry +22+25 \( "$f" -resize 50x42 \) images/temp.png images/temp.png;
-#     composite -gravity SouthWest -geometry +22+25 \( "$f" -resize 50x42 \) images/temp.png images/temp.png;
-#     composite -gravity  center images/temp.png content-blocks-x2-background-multi.png "$f";
-
-#     rm images/temp.png;
-#     cp -p "$f" "images/$(basename $f .png)@2x.png";
-#     convert "$f" -resize 80x80 "$f";    
-# done
