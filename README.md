@@ -8,7 +8,7 @@ Short shell script to make icons similar to those used by [ModMore's Content Blo
 1. Clone the repo.
 2. Get some icon files in PNG format from FontAwesome, FlatIcon, etc. > 200px works best.
 3. Drop your icons into /images
-4. Run ./cb-icon-maker.sh
+4. Run `./cb-icon-maker.sh`
 5. If you want 2x2 icons, add the `--multi` option.
 6. Upload your icons into the `/assets/components/contentblocks/img/icons/`
 
